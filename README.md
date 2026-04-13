@@ -13,6 +13,7 @@
   <a href="https://github.com/DroidLogic/StoneBase/releases/latest"><img src="https://img.shields.io/github/v/release/DroidLogic/StoneBase?style=flat-square&color=blue" alt="Latest Release" /></a>
   <img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-brightgreen?style=flat-square" alt="Platforms" />
   <a href="https://gostonebase.com"><img src="https://img.shields.io/badge/website-gostonebase.com-purple?style=flat-square" alt="Website" /></a>
+  <a href="https://discord.gg/Yz8GzE3A6"><img src="https://img.shields.io/badge/Discord-community-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" /></a>
 </p>
 
 ---
@@ -26,15 +27,20 @@
 | | Free | Pro | Max |
 |---|:---:|:---:|:---:|
 | SGF import & export (single, batch, folder) | x | x | x |
+| OGS integration (browse & import from Online Go Server) | x | x | x |
 | Interactive board with move markers & variation preview | x | x | x |
 | Move tree navigation with branching variations | x | x | x |
 | Board annotations (circles, squares, triangles, labels) | x | x | x |
+| Board & stone style customization (6 boards, 3 stone styles) | x | x | x |
+| Game categories (assign, edit, bulk-update) | x | x | x |
 | Game search by player, date, event, result | x | x | x |
 | Local KataGo AI analysis | x | x | x |
+| Sound effects | x | x | x |
+| Update notifications (checks for new versions on startup) | x | x | x |
 | Multi-language interface (English, Spanish) | x | x | x |
 | Game library limit | 50 | Unlimited | Unlimited |
 | Batch AI analysis with progress tracking | | x | x |
-| Position search (Lucene-powered) | | x | x |
+| Position search with symmetry matching (Lucene-powered) | | x | x |
 | Duplicate detection & merge | | x | x |
 | Batch ZIP export | | x | x |
 | Advanced filters (rank, komi, handicap, move count) | | x | x |
@@ -61,7 +67,7 @@ Grab the latest release for your platform from the **[Releases](https://github.c
 
 ## How It Works
 
-1. **Import** — Upload your SGF files — individually, in batches, or by folder. StoneBase parses and indexes every game automatically.
+1. **Import** — Upload your SGF files individually, in batches, or by folder. You can also browse and import games directly from the [Online Go Server](https://online-go.com). StoneBase parses and indexes every game automatically.
 2. **Analyze** — KataGo evaluates each move with win rates, score estimates, candidate moves, and principal variations.
 3. **Improve** — Review mistakes, explore better lines, search for patterns, and track your progress.
 
@@ -73,8 +79,11 @@ This repository is the place to report bugs, request features, and share feedbac
 
 - **[Open an issue](https://github.com/DroidLogic/StoneBase/issues/new)** for bug reports or feature requests.
 - **[View open issues](https://github.com/DroidLogic/StoneBase/issues)** to see what's being tracked.
+- **[Join the Discord](https://discord.gg/Yz8GzE3A6)** for discussion and community support.
 
 ## Links
 
 - **Website:** [gostonebase.com](https://gostonebase.com)
+- **Discord:** [discord.gg/Yz8GzE3A6](https://discord.gg/Yz8GzE3A6)
+- **Reddit:** [r/StoneBase](https://www.reddit.com/r/StoneBase/)
 - **KataGo:** [github.com/lightvector/KataGo](https://github.com/lightvector/KataGo)
