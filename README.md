@@ -84,6 +84,7 @@ This repository is the place to report bugs, request features, and share feedbac
 ## Links
 
 - **Website:** [gostonebase.com](https://gostonebase.com)
+- **Blog:** [gostonebase.com/blog](https://gostonebase.com/blog/)
 - **Discord:** [discord.gg/Yz8GzE3A6](https://discord.gg/Yz8GzE3A6)
 - **Reddit:** [r/StoneBase](https://www.reddit.com/r/StoneBase/)
 - **KataGo:** [github.com/lightvector/KataGo](https://github.com/lightvector/KataGo)
