@@ -33,7 +33,7 @@
 | Board annotations (circles, squares, triangles, labels) | x | x | x |
 | Board & stone style customization (6 boards, 3 stone styles) | x | x | x |
 | Game categories (assign, edit, bulk-update) | x | x | x |
-| Game search by player, date, event, result | x | x | x |
+| Advanced game search & filters (player, date, rules, rank, komi, handicap, etc.) | x | x | x |
 | Local KataGo AI analysis | x | x | x |
 | Sound effects | x | x | x |
 | Update notifications (checks for new versions on startup) | x | x | x |
@@ -43,10 +43,12 @@
 | Position search with symmetry matching (Lucene-powered) | | x | x |
 | Duplicate detection & merge | | x | x |
 | Batch ZIP export | | x | x |
-| Advanced filters (rank, komi, handicap, move count) | | x | x |
+| Use on up to 3 devices | | x | x |
 | Cloud KataGo (no local GPU needed) | | | x |
 | Stronger neural networks & faster analysis | | | x |
 
+> **Supporter tier** (€2.99/mo or €24/year, coming soon) — lifts the 50-game cap with no other Pro features, for players who want unlimited library access and to support the project. Also includes use on up to 3 devices.
+>
 > See full pricing and details at **[gostonebase.com](https://gostonebase.com)**.
 
 <details>
