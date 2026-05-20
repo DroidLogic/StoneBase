@@ -43,6 +43,7 @@
 | Position search with symmetry matching (Lucene-powered) | | x | x |
 | Duplicate detection & merge | | x | x |
 | Batch ZIP export | | x | x |
+| Public database downloads (AEB collection + more) | | x | x |
 | Use on up to 3 devices | | x | x |
 | Cloud KataGo (no local GPU needed) | | | x |
 | Stronger neural networks & faster analysis | | | x |
@@ -69,7 +70,7 @@ Grab the latest release for your platform from the **[Releases](https://github.c
 
 ## How It Works
 
-1. **Import** — Upload your SGF files individually, in batches, or by folder. You can also browse and import games directly from the [Online Go Server](https://online-go.com). StoneBase parses and indexes every game automatically.
+1. **Import** — Upload your SGF files individually, in batches, or by folder. Browse and import games from the [Online Go Server](https://online-go.com), or download open-license public game collections (AEB — 95,623 professional games) from within the app. StoneBase parses and indexes every game automatically.
 2. **Analyze** — KataGo evaluates each move with win rates, score estimates, candidate moves, and principal variations.
 3. **Improve** — Review mistakes, explore better lines, search for patterns, and track your progress.
 
