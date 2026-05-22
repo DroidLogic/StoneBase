@@ -67,6 +67,7 @@ Grab the latest release for your platform from the **[Releases](https://github.c
 | Windows | `.msi` |
 | macOS | `.dmg` |
 | Linux (Debian/Ubuntu) | `.deb` |
+| Linux (any distro) | `.AppImage` |
 
 ## How It Works
 
