@@ -37,7 +37,7 @@
 | Local KataGo AI analysis | x | x | x |
 | Sound effects | x | x | x |
 | Update notifications (checks for new versions on startup) | x | x | x |
-| Multi-language interface (English, Spanish) | x | x | x |
+| Multi-language interface (English, Spanish, Korean, Japanese, Simplified Chinese, German, Portuguese, French) | x | x | x |
 | Game library limit | 50 | Unlimited | Unlimited |
 | Batch AI analysis with progress tracking | | x | x |
 | Position search with symmetry matching (Lucene-powered) | | x | x |
