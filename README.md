@@ -13,7 +13,7 @@
   <a href="https://github.com/DroidLogic/StoneBase/releases/latest"><img src="https://img.shields.io/github/v/release/DroidLogic/StoneBase?style=flat-square&color=blue" alt="Latest Release" /></a>
   <img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-brightgreen?style=flat-square" alt="Platforms" />
   <a href="https://gostonebase.com"><img src="https://img.shields.io/badge/website-gostonebase.com-purple?style=flat-square" alt="Website" /></a>
-  <a href="https://discord.gg/Yz8GzE3A6"><img src="https://img.shields.io/badge/Discord-community-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://discord.gg/BjHzqQCHtX"><img src="https://img.shields.io/badge/Discord-community-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" /></a>
 </p>
 
 ---
@@ -83,12 +83,12 @@ This repository is the place to report bugs, request features, and share feedbac
 
 - **[Open an issue](https://github.com/DroidLogic/StoneBase/issues/new)** for bug reports or feature requests.
 - **[View open issues](https://github.com/DroidLogic/StoneBase/issues)** to see what's being tracked.
-- **[Join the Discord](https://discord.gg/Yz8GzE3A6)** for discussion and community support.
+- **[Join the Discord](https://discord.gg/BjHzqQCHtX)** for discussion and community support.
 
 ## Links
 
 - **Website:** [gostonebase.com](https://gostonebase.com)
 - **Blog:** [gostonebase.com/blog](https://gostonebase.com/blog/)
-- **Discord:** [discord.gg/Yz8GzE3A6](https://discord.gg/Yz8GzE3A6)
+- **Discord:** [discord.gg/BjHzqQCHtX](https://discord.gg/BjHzqQCHtX)
 - **Reddit:** [r/StoneBase](https://www.reddit.com/r/StoneBase/)
 - **KataGo:** [github.com/lightvector/KataGo](https://github.com/lightvector/KataGo)
