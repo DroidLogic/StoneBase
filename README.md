@@ -19,7 +19,7 @@
 ---
 
 <p align="center">
-  <img src=".github/screenshot-board.png" width="520" alt="StoneBase board with KataGo AI analysis" />
+  <img width="3834" height="1883" alt="image" src="https://github.com/user-attachments/assets/db967d02-2869-4b2a-986d-1a68b8ccda71" alt="StoneBase board with KataGo AI analysis" />
 </p>
 
 ## Features
