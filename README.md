@@ -40,6 +40,34 @@
 
 The desktop packages include Java. KataGo and other engines are installed separately on the host computer; choose a build and model suited to its hardware. For **Play** mode, add a GTP engine in Settings with its executable, command arguments and GTP configuration.
 
+## Choose your desktop edition
+
+Starting with **1.0.58**, StoneBase offers two downloads for each desktop platform.
+The website selects **App window (Tauri)** by default; choose **Browser** if you
+prefer using your existing browser.
+
+| | App window (Tauri) | Browser |
+|---|---|---|
+| Opens in | Its own desktop window | Your default browser, opened automatically |
+| Download names | `StoneBase-Tauri-…` or `stonebase-tauri_…` | `StoneBase-…` or `stonebase_…` |
+| Best fit | A standalone desktop-window experience | Your preferred browser and its rendering engine |
+
+Both editions include the same review interface, Java backend, game library,
+KataGo integration and phone/tablet access. You do not need both installed, but
+they can coexist and share one running host and the same games. Browser-local
+preferences and cookies are separate from the app-window profile.
+
+Closing the app window hides it while StoneBase keeps running for analysis and
+local-network access. Use **Open** from the tray or launch it again to reopen it;
+use **Quit** to stop StoneBase. Closing a browser tab also leaves the host running.
+Phone and tablet access continues to use a browser in either edition; these are
+not native mobile downloads.
+
+Tauri uses the system webview (WebView2 on Windows, WKWebView on macOS,
+WebKitGTK on Linux). Responsiveness and graphics compatibility depend on your
+system; it is not inherently faster than the browser edition. If you encounter
+window or graphics problems, the browser download remains available.
+
 ## Study, play and organize
 
 - **Review with KataGo:** live analysis, candidate moves, variation previews, and an action to add the engine’s suggested next move.
