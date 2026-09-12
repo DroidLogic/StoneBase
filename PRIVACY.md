@@ -1,6 +1,6 @@
 # StoneBase Privacy Notice
 
-Updated September 6, 2026.
+Updated September 12, 2026.
 
 Your game library, SGF files, analyses, comments and configuration are stored
 on the computer running the StoneBase server. If you connect from a phone,
@@ -30,12 +30,17 @@ features, understand operation outcomes and improve the app:
   analysis and engine matches. Pausing a match is not reported as completion.
 - Errors described by fixed reason codes, the affected feature, operation
   stage, HTTP status where relevant, and a diagnostic fingerprint used to
-  group similar failures. Automatic events do not contain exception messages
+  group similar failures. When available, events also include a fixed error-type
+  category and one StoneBase code symbol/line or bundled JavaScript asset location
+  to identify the failing code. These are application code locations, not paths
+  to your files. Automatic events do not contain exception messages
   or stack traces. The backend fingerprint hashes exception type and a
   limited number of StoneBase code symbols; it excludes message contents.
 - Browser startup, rendering, loading, network and connection failures.
-  Browser events include only a browser family and a broad viewport category
-  (`mobile`, `tablet` or `desktop`), not the full user-agent string or URL.
+  Browser events include a browser family, browser/Tauri runtime, broad client
+  operating-system category and viewport category (`mobile`, `tablet` or `desktop`).
+  The client operating system is separate from the server operating system.
+  The full user-agent string and URL are not sent.
 
 Older app versions send a smaller set of events, including completed
 analysis with a move-count bucket rather than operation outcomes.
@@ -55,7 +60,7 @@ analysis with a move-count bucket rather than operation outcomes.
 ### What automatic telemetry does not contain
 
 - Names, email addresses, usernames or account identifiers
-- File names, file paths, SGF content or your game library
+- Your file names, file paths, SGF content or game library
 - Moves, board positions, winrates, variations or comments
 - Engine commands, engine output, KataGo queries or responses
 - Keystrokes, mouse recordings or window titles
